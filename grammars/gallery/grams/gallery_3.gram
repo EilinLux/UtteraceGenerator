@@ -1,0 +1,13 @@
+#JSGF V1.1
+
+grammar gallery_2;
+
+public <gallery> = <Gallery_114>;
+
+<Gallery_114> = <SearchView> | <SearchViewResult>;
+
+<SearchView> = (<gal_edit_v> [the] <gal_picture_n>);
+
+<SearchViewResult> = (<gal_edit_v> <Location@SearchViewResult> <gal_picture_n>) ;
+
+#<Location@SearchViewResult> is expanded through mapping in *global.gram => *config.json => slot_dictionaries/Location.txt

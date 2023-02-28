@@ -1,0 +1,13 @@
+#JSGF V1.1
+
+grammar gallery_1;
+
+public <gallery_1> = <Gallery_100>;
+
+
+<Gallery_100> = (<gal_launch> <gal_gallery_n>);
+
+#gal_launch is definied in gallery_global.gram so that each grammar can use it
+
+
+

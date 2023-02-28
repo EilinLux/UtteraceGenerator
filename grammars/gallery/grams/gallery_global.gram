@@ -1,0 +1,16 @@
+#JSGF V1.1
+
+grammar gallery_global;
+
+
+
+<Location@SearchViewResult> = $LOCATION;
+<gal_edit_v> = edit|adjust|alter|change|modify|enhance|manipulate;
+<gal_picture_n> = image|photo|photograph|picture|selfie|shot|snap|snapshot;
+
+<gal_launch> = launch|open|start|boot up|go to|load|load up|open up|run|start up|activate|use;
+
+<gal_gallery_n> = gallery|photo gallery|picture gallery|camera roll;
+
+
+

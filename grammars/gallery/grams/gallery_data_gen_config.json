@@ -1,0 +1,41 @@
+{
+    "DATA_GLOBAL_GEN": [
+        "gallery_global"
+    ],
+    "DATA": {
+        "$list": "grammars/gallery/slot_dictionaries/",
+        "GRAM": "grammars/gallery/grams/",
+        "SPEC": "",
+        "OUTPUT": "grammars/output/",
+        "$common_dir": "grammars/common/slot_dictionaries/"
+    },
+    "NONTERMINAL": {
+        "$LOCATION": {
+            "TYPE": "tag",
+            "TAG": "_CITIES",
+            "LIST": "$list/location.txt"
+        },
+        "$LASTNAME": {
+            "TYPE": "list",
+            "TAG": "",
+            "LIST": "$list/lastname.txt"
+        },
+        "$MOVIE": {
+            "TYPE": "list",
+            "TAG": "",
+            "LIST": "$list/movie.txt"
+        },
+        "$APP": {
+            "TYPE": "list",
+            "TAG": "_APP",
+            "LIST": "$common_dir/app.txt"
+        }
+    },
+    "DATA_GEN": [
+        ["gallery_1", 0.3],
+        ["gallery_2",1],
+        ["gallery_3",0.7],
+        ["gallery_4",1],
+        ["gallery_5",1]
+    ]
+}

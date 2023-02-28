@@ -1,0 +1,13 @@
+#JSGF V1.1
+
+grammar gallery_4;
+
+public <gallery> = <gallery_4>;
+
+<gallery_4> = <gallery_4_a>|<gallery_4_b>;
+
+<gallery_4_a> = Show photos taken by <lastname>;
+<gallery_4_b> =  <gal_picture_n> with <lastname>;
+
+<lastname> = $LASTNAME;
+

@@ -1,0 +1,13 @@
+#JSGF V1.1
+
+grammar gallery_5;
+
+public <gallery> = <gallery_5>;
+
+<gallery_5> = <gallery_5_a>|<gallery_5_b>;
+
+<gallery_5_a> = Share this photo via <app>;
+<gallery_5_b> = <app>;
+
+<app> = $APP;
+
