@@ -12,11 +12,6 @@ This Python project automates the generation of sample utterances for Natural La
     * [Adding Concepts](#adding-concepts)
 * [Running the Generator](#running-the-generator)
 * [File Examples](#file-examples)
-    * [`<FOLDER-NAME>/grams/<FOLDER-NAME>_data_gen_config.json`](#folder-namegramsfolder-name_data_gen_configjson)
-    * [`<FOLDER-NAME>/grams/<FOLDER-NAME>_global.gram`](#folder-namegramsfolder-name_globalgram)
-    * [`<FOLDER-NAME>/grams/<FOLDER-NAME>_<NUMBER>.gram`](#folder-namegramsfolder-name_numbergram)
-    * [`<FOLDER-NAME>/slot_dictionary/<ALIAS-NAME>.txt`](#folder-nameslot_dictionaryalias-nametxt)
-    * [`outputs/<FOLDER-NAME>_<NUMBER>.expand`](#outputsfolder-name_numberexpand)
 
 
 ## General Info
