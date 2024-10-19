@@ -71,7 +71,8 @@ The generated utterances will be saved in the grammars/outputs directory.
 
 ### File Examples
 #### CASE A. 
-<FOLDER-NAME>/grams/<FOLDER-NAME>_data_gen_config.json
+1. <FOLDER-NAME>/grams/<FOLDER-NAME>_data_gen_config.json
+
 	``` JSON
 	{
 	  "DATA_GLOBAL_GEN": [
@@ -116,7 +117,8 @@ The generated utterances will be saved in the grammars/outputs directory.
 	}
 	```
 
-<FOLDER-NAME>/grams/<FOLDER-NAME>_global.gram
+2. <FOLDER-NAME>/grams/<FOLDER-NAME>_global.gram
+   
 	```
 	grammar gallery_global;
 	<Location@SearchViewResult> = $LOCATION;
@@ -126,7 +128,8 @@ The generated utterances will be saved in the grammars/outputs directory.
 	<gal_gallery_n> = gallery|photo gallery|picture gallery|camera roll;
 	```
  
-<FOLDER-NAME>/grams/<FOLDER-NAME>_<NUMBER>.gram
+3. <FOLDER-NAME>/grams/<FOLDER-NAME>_<NUMBER>.gram
+   
 	```
 	grammar gallery_2;
 	public <gallery> = <Gallery_114>;
@@ -136,7 +139,7 @@ The generated utterances will be saved in the grammars/outputs directory.
 	#<Location@SearchViewResult> is expanded through mapping in *global.gram => *config.json => slot_dictionaries/Location.txt
 	```
 
-Another example:
+#### Another example:
 	```
 	grammar gallery_4;
 	public <gallery> = <gallery_4>;
@@ -147,6 +150,7 @@ Another example:
 	```
 
 <FOLDER-NAME>/slot_dictionary/<ALIAS-NAME>.txt
+
 	```
 	Smith
 	Kowalski
@@ -154,6 +158,7 @@ Another example:
 	```
 
 outputs/<FOLDER-NAME>_<NUMBER>.expand
+
 	```
 	gallery_2	enhance shot	o o
 	gallery_2	enhance picture	o o
